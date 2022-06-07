@@ -15,6 +15,7 @@ main{
   width: 960px;
   margin: 50px auto;
   display: flex;
+  justify-content: center;
 }
 
 .step-box{
@@ -70,16 +71,18 @@ footer{
 @media screen and (max-width: 768px) {
 
   main{
-    width: 100%;
+    width: 90%;
     display: block;
   }
   
   .step-box{
-    width: 90%;
-    margin: 5%;
-
+    width: 100%;
+    position: center;
+    margin: auto 0 20px;
   }
 
-  
+  .step-box:last-child{
+    margin-bottom: 50px;
+  }
 
 }
